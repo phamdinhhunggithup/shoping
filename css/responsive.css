@@ -1,0 +1,51 @@
+@media (min-width: 0px) {
+	.box .box-body .p-item .p-img a.thumb-img img { width: 100%!important; }
+	/* see more of item product  */
+
+	/* ===== AOKHOAT001 ===== */
+	#breadcrumb { margin-top: 67px;}
+
+	[data-aos=zoom] { opacity: 1; transform: scale(1);transition: all .5s; }
+
+	/* ===== AOKHOAT001 ===== */
+	#nav-tab .nav-tabs .nav-item.show .nav-link, .nav-tabs a.nav-link {
+		width: 100%;
+	}
+	/* ===== CART ===== */
+	.cart table thead { display: none!important;}
+	.cart table tr { border-bottom: 5px solid #000; }
+	.cart table tr td { float: right!important; width: 100%!important; text-align: right!important;}
+	.cart table tr td a.thumb-img { float: right!important;}
+	.cart .table tbody tr td a.this-name { float: right!important;}
+	.cart table tr td::before { content: attr(data-label); float: left ; font-size: 12px; font-weight: 700; color: #000;}
+	/* ===== BASKET ===== */
+	.box .box-content .border_,.box .box-content .border__ { border: 1px solid #e1e1e1; }
+	#content .container { width: 100% ; padding-left: 15px; padding-right: 15px;}
+}
+@media (min-width: 576px) {
+	.box .box-body .p-item .p-img a.thumb-img img { height: 413px;}
+}
+@media (min-width: 767px) {
+	.cart table thead { display: contents!important;}
+	.cart table tr { border: none!important; }
+	.cart table tr td { float: none!important; width: inherit!important; text-align: center!important;}
+	.cart table tr td a.thumb-img { float: none!important;}
+	.cart .table tbody tr td a.this-name { float: left!important;}
+	.cart table tr td::before { content: "";}
+	/* ===== BASKET ===== */
+	.box .box-content .border_ { border-left:none; border-bottom: none; border-top: none; border-right: 1px solid #e1e1e1!important; }
+	.box .box-content .border__ { border: none; }
+}
+@media (min-width: 600px) {
+	/* see more of item product  */
+}
+@media (min-width: 992px) {
+	#breadcrumb { margin-top: 87px;}
+	/* ===== AOKHOAT001 ===== */
+	#nav-tab .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+		width: 15%!important;
+	}
+}
+@media (min-width: 1280px) {
+	[data-aos=zoom].zoom { opacity: 0; transform: scale(1.2); transition: all .5s; };
+}

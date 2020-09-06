@@ -1,0 +1,446 @@
+/*===== FONT FACE =====*/
+@font-face {
+	font-family: "MYRIADPRO-BOLD";
+	src : url('../font-family/MYRIADPRO-BOLD.OTF');
+}
+@font-face {
+	font-family: "MYRIADPRO-REGULAR";
+	src : url('../font-family/MYRIADPRO-REGULAR.OTF');
+}
+@font-face {
+	font-family: "MYRIADPRO-LIGHT";
+	src : url('../font-family/MyriadPro-Light.otf');
+}
+/*BACKGROUND COLOR*/
+::selection {background:#333333;color:#ffffff;}
+::-moz-selection {background:#333333;color:#ffffff;}
+::-webkit-selection {background:#333333;color:#ffffff;}
+/*===== BODY =====*/
+body {
+	font-family: "MYRIADPRO-REGULAR";
+	font-size: 1rem;
+	line-height: 1.2;
+	color: #8c92a0;
+}
+/*===== HEADER =====*/
+#header {
+	background-color: #000;
+}
+/*bottom-header*/
+nav#navbar a.logo {
+	margin-right: 80px;
+}
+nav#navbar ul.navbar-nav li a {
+	color: #f3f3f4;
+	padding: 10px 20px;
+}
+nav#navbar .icons a {
+    font-size: 1.125rem;
+    color: #eeeeee;
+}
+nav#navbar .icons a.icon-cart span.num {
+	width: 20px;
+	height: 20px;
+	background-color: #ef487a;
+	line-height: 20px;
+	top: -6px;
+	right: -6px;
+}
+ul.navbar-nav li ul.sub-menu {
+	border-top: 2px solid #ef487a;
+	width: 300px;
+	background-color: #0e0e0e;
+	top: 200%;
+	transition: top .25s;
+}
+ul.navbar-nav li ul.sub-menu.show {
+	top: 100%;
+	transition: top .25s;
+}
+ul.navbar-nav li ul.sub-menu li:hover > a {
+	background-color: #2f3542;
+	border-left: 2px solid #ef487a;
+}
+ul.navbar-nav li #dropdown-menu {
+	top: 200%;
+	transition: top .25s;
+	left: 0;
+	background-color: #0e0e0e;
+	border-top: 2px solid #ef487a;
+}
+ul.navbar-nav li #dropdown-menu ul.list-p li a {
+	padding: 6px 20px;
+	color: #a4b0be;
+}
+ul.navbar-nav li #dropdown-menu.show {
+	top: 90%;
+	transition: top .25s;
+}
+/*===== MAIN SEARCH =====*/
+#main-search {
+	background: #000000;
+	z-index: 10000;
+	border-top: 2px solid #fff;
+}
+#main-search form.form-search input[type="text"] {
+	padding: 10px 100px 10px 50px;
+	font-size: 1.375rem;
+	letter-spacing: 2px;
+	border: 2px solid #fff;
+}
+#main-search form.form-search button[type="submit"] {
+	top: 0px;
+	right: 0px;
+	padding: 10px 50px;
+	border: 2px solid #fff;
+	font-size: 1.375rem;
+	background-color: #000;
+	color: #fff;
+}
+#main-search span.close-form {
+	top: 0;
+	right: 0;
+}
+/* POPUP MODAL POST NEW  */
+#post-new {
+	font-family: "MYRIADPRO-LIGHT";
+}
+#post-new .modal-body h3.title-modal {
+	font-weight: 700;
+	font-size: 2.8125rem;
+	color: #ef487a;
+}
+#post-new .modal-body aside.sub-title-modal {
+	color: #cc5597;
+	font-size: 0.75rem;
+}
+#post-new .modal-body label {
+	font-size: 0.8125rem;
+	color: #cc5597;
+}
+#post-new .modal-body label.form-check-label {
+	margin-top: 12px;
+	margin-left: 18px;
+}
+#post-new .modal-body input {
+	border: 1px solid #e1e1e1!important;
+	height: 30px;
+	padding: 2px 10px;
+	font-size: 0.8125rem;
+	letter-spacing: 1.5px;
+}
+#post-new .modal-body button[type='submit'] {
+	background-color: #cc5597;
+	color: #fff;
+}
+#post-new .modal-body button[type='submit'].close-modal {
+	background: none;
+	color: #eb89bb;
+	margin-top: 20px;
+	margin-right: 10px;
+	float: right;
+	text-decoration: underline;
+}
+#post-new .modal-body .follow-us h4 {
+	font-size: 0.625rem;
+}
+#post-new .modal-body .follow-us ul.list-socal li a {
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	color: #cc5597;
+	margin-right: 5px;
+	background-color: #e1e1e1;
+}
+#post-new .modal-body p.end {
+	font-size: 0.8125rem;
+}
+/*===== BANNER =====*/
+#banner {
+	margin-top: 85px;
+}
+#banner .carousel-indicators li.active {
+	background-color: #ef487a;
+}
+/*===== WP-CONTENT =====*/
+/*section opening*/
+section#opening {
+	margin-bottom: 20px;
+}
+section#opening .list-p a.thumb-img img {
+	height: 185.67px;
+}
+section#opening h4.theme a {
+	color: #7f8c8d; 
+	font-size: 1.5625rem;
+}
+section#opening h4.theme a:hover {
+	color: #ff7979;
+}
+/*casousel*/
+.owl-carousel.owl-loaded {
+	position: relative!important;
+}
+.owl-carousel .owl-nav button {
+	position: absolute!important;
+	top: 30px;
+	font-size: 5rem!important;
+	z-index: 1000000;
+}
+.owl-carousel .owl-nav button.owl-prev {
+	left: 0px;
+}
+.owl-carousel .owl-nav button.owl-next {
+	right: 15px;
+}
+/*section top-product*/
+.box .box-head h2.name-box {
+	font-size: 1.5rem;
+}
+.box .box-body .p-item .p-info ul.list-p li {
+	padding: 5px;
+}
+.box .box-body .p-item .p-info ul.list-p li a.thumb-img img {
+	width: 50px;
+	height: 70px;
+}
+.box .box-body .p-item .p-info .see-more {
+	bottom: -500px;
+	transition: bottom .25s;
+	background-color: #fff;
+}
+.box .box-body .p-item .p-info .see-more.show {
+	bottom: 120%;
+	transition: bottom .25s;
+}
+a.active {
+	border: 1px solid #ef487a;
+	box-shadow: 0 0 5px rgba(0,0,0,1);
+}
+.box .box-body .p-item .p-info span.price {
+	font-size: 1.25rem;
+}
+/*section new see*/
+section#new-see {
+	border-bottom: 1px solid #e1e1e1;
+}
+/*section category*/
+section#category .box .box-body .item-box h2.name-item a {
+	font-size: 1.375rem;
+	color: #d2d2d2;
+}
+section#category .box .box-body .item-box p.desc {
+	color: #8c92a0;
+}
+section#category .box .box-body .item-box h2.name-item a:hover {
+	color: #de5780;
+	transition: .25s;
+}
+section#category .box .box-body a.loadnews {
+	color: #212529;
+	font-size: .875rem;
+}
+
+/* [data-aos=zoom][data-aos=zoom] {
+	transform: scale(1.2);
+	transition: all .5s;
+} */
+[data-aos=zoom][data-aos=zoom].zoom.aos-animate {
+	opacity: 1;
+	transform: scale(1);
+	transition: all .5s;
+}
+
+/*===== FOOTER =====*/
+#footer {
+	background-color: #000;
+	padding: 40px 0;
+}
+#footer .hotline-contact span {
+	font-size: .875rem;
+}
+#footer .hotline-contact strong {
+	font-family: "MYRIADPRO-BOLD";
+	color: #ef487a;
+	line-height: 30px;
+}
+#footer .hotline-contact a {
+	font-size: .75rem;
+	color: #e1e1e1;
+}
+#footer .hotline-contact a:hover {
+	text-decoration: underline!important;
+}
+#footer .item-footer h4.title-name {
+	font-size: 1.25rem;
+}
+#footer .item-footer ul.list-info li a {
+	font-size: .8125rem;
+	line-height: 20px;
+	color: #fff;
+	padding: 3px 0;
+}
+#footer .item-footer ul.list-info li a:hover {
+	text-decoration: underline!important;
+	color: #dc7191;
+	transition: color .25s;
+}
+#footer .item-footer a.shop {
+	color: #ef487a;
+}
+#footer .item-footer form.form-post {
+	width: 90%;
+}
+#footer .item-footer form.form-post input[type="text"] {
+	padding: 5px 80px 5px 10px;
+	background-color: #dfe4ea;
+	border: 1px solid #fff;
+	color: #000;
+	letter-spacing: .5px;
+}
+#footer .item-footer form.form-post button[type="submit"] {
+	background-color: #000;
+	border: none;
+	top: 0;
+	right: 0;
+	padding: 5px 20px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+#footer .item-footer .feedback {
+	line-height: 100px;
+}
+#footer .bottom-footer {
+	border-top: 2px solid #fff;
+}
+/* ===== BACKGTOP ===== */
+#backtop {
+	z-index: 10005;
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	opacity: .8;
+	bottom: 10%;
+	right: -200%;
+	transition: right .75s;
+	line-height: 50px;
+	font-size: 2.5rem;
+}
+#backtop.show {
+	right: 2%;
+	transition: right .5s;
+}
+/*===== COPYRIGHT =====*/
+#copyright {
+	background-color: #dfe4ea;
+}
+#copyright p {
+	color: #57606f;
+	padding: 20px 0;
+	letter-spacing: 2px;
+}
+/*===== WP-RESPON =====*/
+#site {
+	max-height: 100%;
+}
+#site.show::before {
+	content: " ";
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .6);
+	z-index: 10002;
+	max-height: 100%;
+	overflow: hidden;
+	transition: .3s all ease-in-out;
+}
+#wp-respon {
+	width: 300px;
+	top: 0;
+	right: -100%;
+	transition: right .5s;
+	z-index: 10004;
+}
+#wp-respon.show {
+	right: 0;
+	transition: right .5s;
+	height: 100%;
+}
+#wp-respon .site-mobile-menu {
+	background-color: #f1f2f6;
+}
+.site-mobile-menu-header {
+	background-color: #19191a;
+	padding: 20px 15px;
+	width: 300px;
+	z-index: 100000;
+}
+.site-mobile-menu-header h4.site-mobile-menu-name {
+	font-size: 1.375rem;
+}
+.site-mobile-menu-header span.close-icon {
+	font-size: 1.5625rem;
+}
+.site-mobile-menu-body {
+	color: #57606f;
+}
+.site-mobile-menu-body ul.site-nav-menu li > a {
+	padding: 15px;
+	color: #57606f;
+}
+.site-mobile-menu-body ul.site-nav-menu li a.name-p {
+	color: #57606f;
+}
+.site-mobile-menu-body ul.site-nav-menu li:hover > a {
+	background-color: #a4b0be;
+	color: #f1f2f6;
+}
+.site-mobile-menu-body ul.site-nav-menu li ul.sub-menu,
+.site-mobile-menu-body .dropdown {
+	border-left: 3px solid #a4b0be;
+	background-color: #fbfbfb;
+}
+#wp-respon ul.site-nav-menu li.card{
+	border: none!important;
+	background-color: #f1f2f6!important;
+}
+/*===== RENERAL =====*/
+nav#navbar ul.navbar-nav li:hover > a,
+nav#navbar .icons a:hover {
+	color: #ef487a!important;
+	transition: color .25s;
+}
+section#opening .list-p .item:hover a.thumb-img img,.box .box-body .p-item:hover .p-img a.thumb-img img {
+	transform: scale(1.1, 1.1);
+	transition: transform .25s;
+}
+.owl-carousel .owl-nav button.owl-prev:hover,.owl-carousel .owl-nav button.owl-next:hover {
+	background: none!important;
+}
+.owl-carousel .owl-nav button.owl-prev:focus,.owl-carousel .owl-nav button.owl-next:focus,nav#navbar button.navbar-toggler:focus {
+	outline: none!important;
+}
+span.carousel-control-prev-icon,span.carousel-control-next-icon {
+	background-color: #ef487a!important;
+	padding: 20px!important;
+}
+ul.navbar-nav li ul.sub-menu,ul.navbar-nav li #dropdown-menu,#main-search, .owl-theme .owl-dots {
+	display: none;
+}
+ul.navbar-nav li #dropdown-menu ul.list-p li a,.box .box-head h2.name-box,.box .box-head aside.sub-name,
+.box .box-body .p-item .p-info span.price,section#category .box .box-body .item-box h2.name-item a,
+section#category .box .box-body .item-box p.desc,section#category .box .box-body a.loadnews,
+#footer,.site-mobile-menu-body ul.site-nav-menu li > a {
+	font-family: "MYRIADPRO-LIGHT";
+}
+.box .box-body .p-item .p-img a.thumb-img img,.box .box-body .p-item .p-info .see-more, #site.show::before {
+	width: 100%;
+}
+#main-search span.close-form, #backtop, .site-mobile-menu-header span.close-icon {
+	cursor: pointer;
+}
+
+
